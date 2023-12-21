@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localstorage Explore</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-5xl text-center my-10">Shoppingcart with Localstorage</h1>
+    <section>
+        <div class="mx-96">
+            <!-- <input  id="product" type="text" placeholder="product">
+                <input id="quantity" type="text" placeholder="quantity">
+                <button onclick="addProduct()">Add Product</button> -->
+                <input id="product" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                <input id="quantity" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                <button onclick="addProduct()" class="btn btn-neutral">add product</button>
+            </div>
+
+        <div id="cartProduct">
+            <ul class="text-2xl text-center my-5" id="ul-Container">
+
+            </ul>
+        </div>
+    </section>
+
+    <script src="script/index.js"></script>
+</body>
+
+</html>
